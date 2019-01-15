@@ -5,11 +5,10 @@ using UnityEngine;
 public class Card : MonoBehaviour {
 
 #region Static
-	static Color forbiddenColor = Color.red;
 #endregion
 
 #region Script Parameters
-	GameObject forbiddenBuildCube;
+	public GameObject forbiddenBuildCube;
 #endregion
 
 #region Fields
