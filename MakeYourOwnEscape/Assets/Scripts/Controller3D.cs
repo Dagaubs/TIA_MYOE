@@ -163,7 +163,7 @@ public class Controller3D : MonoBehaviour {
                 rayLength = hit.distance;
 
                 hitInfo.gameObject = hit.collider.gameObject;
-                Debug.Log("touched " + (directionY == -1 ? "below " : "above ") + ": " + hitInfo.gameObject.name);
+                //Debug.Log("touched " + (directionY == -1 ? "below " : "above ") + ": " + hitInfo.gameObject.name);
                 collisions.below = directionY == -1;
                 collisions.above = directionY == 1;
                 //Debug.Break();
